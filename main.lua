@@ -46,6 +46,7 @@ local aftershockPack = {
   ["vulperafox"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\vulperafox.tga:28:28",
   ["monkeyretch"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyretch.tga:28:28",
   ["catshock"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshock.tga:28:28",
+  ["slothcrazy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\slothcrazy.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -97,6 +98,7 @@ local aftershockEmotes = {
   ["vulperafox"] = "vulperafox",
   ["monkeyretch"] = "monkeyretch",
   ["catshock"] = "catshock",
+  ["slothcrazy"] = "slothcrazy",
 }
 
 local aftershockAnimationMetadata = {
