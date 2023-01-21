@@ -43,6 +43,7 @@ local aftershockPack = {
   ["barachaingang"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\barachaingang.tga:28:28",
   ["mapossum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mapossum.tga:28:28",
   ["xdd"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xdd.tga:28:56",
+  ["vulperafox"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\vulperafox.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -91,6 +92,7 @@ local aftershockEmotes = {
   ["barachaingang"] = "barachaingang",
   ["mapossum"] = "mapossum",
   ["xdd"] = "xdd",
+  ["vulperafox"] = "vulperafox",
 }
 
 local aftershockAnimationMetadata = {
