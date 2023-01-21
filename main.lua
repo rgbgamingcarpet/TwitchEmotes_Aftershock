@@ -38,6 +38,7 @@ local aftershockPack = {
   ["smirkbara"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\smirkbara.tga:28:28",
 	["rgbStare"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbStare.tga:28:28",
 	["monkeyShock"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyShock.tga:28:28",
+  ["rgbRee"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbRee.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -81,6 +82,7 @@ local aftershockEmotes = {
 	["rgbStare"] = "rgbStare",
 	["monkeyShock"] = "monkeyShock",
 	["monkeyshock"] = "monkeyShock",
+  ["rgbRee"] = "rgbRee",
 }
 
 -- add emotes
