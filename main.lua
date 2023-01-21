@@ -39,6 +39,7 @@ local aftershockPack = {
 	["rgbStare"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbStare.tga:28:28",
 	["monkeyShock"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyShock.tga:28:28",
   ["rgbRee"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbRee.tga:28:28",
+  ["HUHH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\HUHH.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -83,7 +84,17 @@ local aftershockEmotes = {
 	["monkeyShock"] = "monkeyShock",
 	["monkeyshock"] = "monkeyShock",
   ["rgbRee"] = "rgbRee",
+  ["HUHH"] = "HUHH",
 }
+
+local aftershockAnimationMetadata = {
+   ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\HUHH.tga"] = {["nFrames"] = 47, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=2048, ["framerate"] = 25},
+ }
+
+-- add animated emote metadata
+for k, v in pairs(aftershockAnimationMetadata) do
+  TwitchEmotes_animation_metadata[k] = v;
+end
 
 -- add emotes
 Emoticons_RegisterPack("TwitchEmotes_Aftershock", aftershockEmotes, aftershockPack)
@@ -125,3 +136,41 @@ end
 remove_emotes(badEmotes, AllTwitchEmoteNames, TwitchEmotes_emoticons)
 
 table.sort(AllTwitchEmoteNames)
+
+local function escpattern(x)
+    return (
+             x:gsub('%+', '%%+')
+             :gsub('%-', '%%-')
+            )
+end
+
+-- TwitchEmotesAnimator.lua
+hooksecurefunc("TwitchEmotesAnimator_UpdateEmoteInFontString", function(fontstring, widthOverride, heightOverride)
+    local txt = fontstring:GetText();
+    if (txt ~= nil) then
+        for emoteTextureString in txt:gmatch("(|TInterface\\AddOns\\TwitchEmotes_Aftershock\\emotes.-|t)") do
+            local imagepath = emoteTextureString:match("|T(Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes.-.tga).-|t")
+
+            local animdata = TwitchEmotes_animation_metadata[imagepath];
+            if (animdata ~= nil) then
+                local framenum = TwitchEmotes_GetCurrentFrameNum(animdata);
+                local nTxt;
+                if(widthOverride ~= nil or heightOverride ~= nil) then
+                    nTxt = txt:gsub(escpattern(emoteTextureString),
+                                        TwitchEmotes_BuildEmoteFrameStringWithDimensions(
+                                        imagepath, animdata, framenum, widthOverride, heightOverride))
+                else
+                    nTxt = txt:gsub(escpattern(emoteTextureString),
+                                      TwitchEmotes_BuildEmoteFrameString(
+                                        imagepath, animdata, framenum))
+                end
+
+                if (fontstring.messageInfo ~= nil) then
+                    fontstring.messageInfo.message = nTxt
+                end
+                fontstring:SetText(nTxt);
+                txt = nTxt;
+            end
+        end
+    end
+end)
