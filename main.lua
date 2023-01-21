@@ -40,6 +40,9 @@ local aftershockPack = {
 	["monkeyShock"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyShock.tga:28:28",
   ["rgbRee"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbRee.tga:28:28",
   ["HUHH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\HUHH.tga:28:28",
+  ["barachaingang"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\barachaingang.tga:28:28",
+  ["mapossum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mapossum.tga:28:28",
+  ["xdd"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xdd.tga:28:56",
 }
 
 local aftershockEmotes = {
@@ -85,6 +88,9 @@ local aftershockEmotes = {
 	["monkeyshock"] = "monkeyShock",
   ["rgbRee"] = "rgbRee",
   ["HUHH"] = "HUHH",
+  ["barachaingang"] = "barachaingang",
+  ["mapossum"] = "mapossum",
+  ["xdd"] = "xdd",
 }
 
 local aftershockAnimationMetadata = {
