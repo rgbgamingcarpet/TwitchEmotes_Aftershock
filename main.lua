@@ -44,6 +44,7 @@ local aftershockPack = {
   ["mapossum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mapossum.tga:28:28",
   ["xdd"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xdd.tga:28:56",
   ["vulperafox"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\vulperafox.tga:28:28",
+  ["monkeyretch"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyretch.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -93,6 +94,7 @@ local aftershockEmotes = {
   ["mapossum"] = "mapossum",
   ["xdd"] = "xdd",
   ["vulperafox"] = "vulperafox",
+  ["monkeyretch"] = "monkeyretch",
 }
 
 local aftershockAnimationMetadata = {
