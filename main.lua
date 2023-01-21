@@ -104,14 +104,15 @@ local badEmotes = {
 	"cmoN", -- *cough*
 	"cmoB",
 	"cmoV",
-	"xd" 	--annoying
+	"xd",  	-- annoying
+  "pog"   -- there's already "Pog"
 }
 
 local function remove_emotes(x, y, z)
   for i = #y, 1, -1 do
     for j = 1, #x do
+      z[x[j]] = nil --lol     --remove from chat
       if y[i] == x[j] then
-      	z[x[j]] = nil --lol		--remove from chat
         table.remove(y, i) 		--remove from autocomplete suggestions
         break
       end
