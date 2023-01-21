@@ -83,6 +83,7 @@ local aftershockEmotes = {
 	["monkeyshock"] = "monkeyShock",
 }
 
+-- add emotes
 Emoticons_RegisterPack("TwitchEmotes_Aftershock", aftershockEmotes, aftershockPack)
 
 local function tablelength(T)
@@ -96,5 +97,28 @@ for k, _ in pairs(aftershockPack) do
     AllTwitchEmoteNames[i] = k;
     i = i + 1;
 end
+
+-- remove trash/annoying emotes
+local badEmotes = {
+	"cmon", -- annoying
+	"cmoN", -- *cough*
+	"cmoB",
+	"cmoV",
+	"xd" 	--annoying
+}
+
+local function remove_emotes(x, y, z)
+  for i = #y, 1, -1 do
+    for j = 1, #x do
+      if y[i] == x[j] then
+      	z[x[j]] = nil --lol		--remove from chat
+        table.remove(y, i) 		--remove from autocomplete suggestions
+        break
+      end
+    end
+  end
+end
+
+remove_emotes(badEmotes, AllTwitchEmoteNames, TwitchEmotes_emoticons)
 
 table.sort(AllTwitchEmoteNames)
