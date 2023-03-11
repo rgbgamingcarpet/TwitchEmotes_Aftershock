@@ -47,6 +47,7 @@ local aftershockPack = {
   ["monkeyretch"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyretch.tga:28:28",
   ["catshock"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshock.tga:28:28",
   ["slothcrazy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\slothcrazy.tga:28:28",
+    ["MUNKERS"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\MUNKERS.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -99,6 +100,7 @@ local aftershockEmotes = {
   ["monkeyretch"] = "monkeyretch",
   ["catshock"] = "catshock",
   ["slothcrazy"] = "slothcrazy",
+  ["MUNKERS"] = "MUNKERS"
 }
 
 local aftershockAnimationMetadata = {
@@ -132,7 +134,8 @@ local badEmotes = {
 	"cmoB",
 	"cmoV",
 	"xd",  	-- annoying
-  "pog"   -- there's already "Pog"
+    "pog",  -- there's already "Pog"
+    ":xdd:" -- mine is better xdd
 }
 
 local function remove_emotes(x, y, z)
