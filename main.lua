@@ -50,6 +50,7 @@ local aftershockPack = {
     ["MUNKERS"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\MUNKERS.tga:28:28",
     ["catYep"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catYep.tga:28:28",
     ["catNope"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catNope.tga:28:28",
+    ["xddkiss"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xddkiss.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -104,13 +105,15 @@ local aftershockEmotes = {
     ["slothcrazy"] = "slothcrazy",
     ["MUNKERS"] = "MUNKERS",
     ["catYep"] = "catYep",
-    ["catNope"] = "catNope"
+    ["catNope"] = "catNope",
+    ["xddkiss"] = "xddkiss"
 }
 
 local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\HUHH.tga"] = {["nFrames"] = 47, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 25},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catYep.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 10},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catNope.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 10},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xddkiss.tga"] = {["nFrames"] = 15, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"] = 64, ["imageHeight"] = 1024, ["framerate"] = 6},
 }
 
 -- add animated emote metadata
