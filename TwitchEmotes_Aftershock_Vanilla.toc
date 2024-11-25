@@ -1,4 +1,4 @@
-## Interface: 110005
+## Interface: 11501
 ## Title: |TInterface\Addons\TwitchEmotes_Aftershock\emotes\happybara:0|tAftershock Emotes|TInterface\Addons\TwitchEmotes_Aftershock\emotes\smirkbara:0|t
 ## Author: RGB
 ## Version: 1.0.6
