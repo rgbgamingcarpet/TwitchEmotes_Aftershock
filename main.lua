@@ -54,7 +54,6 @@ local aftershockPack = {
     ["bongoclown"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongoclown.tga:28:28",
     ["bongohyper"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongohyper.tga:28:28",
     ["SMH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\SMH.tga:28:28",
-    ["goinginsane"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\goinginsane.tga:28:28",
     ["sniffing"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\sniffing.tga:28:28",
 }
 
@@ -115,7 +114,6 @@ local aftershockEmotes = {
     ["bongoclown"] = "bongoclown",
     ["bongohyper"] = "bongohyper",
     ["SMH"] = "SMH",
-    ["goinginsane"] = "goinginsane",
     ["sniffing"] = "sniffing",
 }
 
@@ -127,7 +125,6 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongoclown.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 6},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongohyper.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 18},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\SMH.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 10},
-    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\goinginsane.tga"] = {["nFrames"] = 47, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1504, ["framerate"] = 24},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\sniffing.tga"] = {["nFrames"] = 59, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1888, ["framerate"] = 10},
 }
 
