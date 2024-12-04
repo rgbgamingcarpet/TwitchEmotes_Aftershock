@@ -53,6 +53,8 @@ local aftershockPack = {
     ["xddkiss"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xddkiss.tga:28:28",
     ["bongoclown"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongoclown.tga:28:28",
     ["bongohyper"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongohyper.tga:28:28",
+    ["SMH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\SMH.tga:28:28",
+    ["goinginsane"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\goinginsane.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -111,6 +113,8 @@ local aftershockEmotes = {
     ["xddkiss"] = "xddkiss",
     ["bongoclown"] = "bongoclown",
     ["bongohyper"] = "bongohyper",
+    ["SMH"] = "SMH",
+    ["goinginsane"] = "goinginsane",
 }
 
 local aftershockAnimationMetadata = {
@@ -120,6 +124,8 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xddkiss.tga"] = {["nFrames"] = 15, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"] = 64, ["imageHeight"] = 1024, ["framerate"] = 6},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongoclown.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 6},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongohyper.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 18},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\SMH.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 10},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\goinginsane.tga"] = {["nFrames"] = 47, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1504, ["framerate"] = 24},
 }
 
 -- add animated emote metadata
