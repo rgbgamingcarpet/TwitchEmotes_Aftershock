@@ -71,6 +71,8 @@ local aftershockPack = {
     ["thinking2"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\thinking2.tga:28:28",
     ["catshake"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshake.tga:28:28",
     ["ratshake"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratshake.tga:28:28",
+    ["locksum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\locksum.tga:28:28",
+    ["lootsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\lootsum.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -147,6 +149,8 @@ local aftershockEmotes = {
     ["thinking2"] = "thinking2",
     ["catshake"] = "catshake",
     ["ratshake"] = "ratshake",
+    ["locksum"] = "locksum",
+    ["lootsum"] = "lootsum",
 }
 
 local aftershockAnimationMetadata = {
