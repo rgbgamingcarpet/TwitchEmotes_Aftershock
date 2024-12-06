@@ -69,6 +69,8 @@ local aftershockPack = {
     ["safetyBara"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\safetyBara.tga:28:28",
     ["thinking1"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\thinking1.tga:28:28",
     ["thinking2"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\thinking2.tga:28:28",
+    ["catshake"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshake.tga:28:28",
+    ["ratshake"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratshake.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -143,6 +145,8 @@ local aftershockEmotes = {
     ["safetyBara"] = "safetyBara",
     ["thinking1"] = "thinking1",
     ["thinking2"] = "thinking2",
+    ["catshake"] = "catshake",
+    ["ratshake"] = "ratshake",
 }
 
 local aftershockAnimationMetadata = {
@@ -154,6 +158,8 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bongohyper.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 18},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\duckSMH.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 10},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catSniffa.tga"] = {["nFrames"] = 59, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1888, ["framerate"] = 10},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshake.tga"] = {["nFrames"] = 16, ["frameWidth"] = 28, ["frameHeight"] = 28, ["imageWidth"] = 28, ["imageHeight"] = 448, ["framerate"] = 22},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratshake.tga"] = {["nFrames"] = 4, ["frameWidth"] = 87, ["frameHeight"] = 87, ["imageWidth"] = 87, ["imageHeight"] = 348, ["framerate"] = 16},
 }
 
 -- add animated emote metadata
