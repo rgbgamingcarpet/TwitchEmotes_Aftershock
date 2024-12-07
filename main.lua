@@ -73,6 +73,12 @@ local aftershockPack = {
     ["locksum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\locksum.tga:28:28",
     ["lootsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\lootsum.tga:28:28",
     ["Handshakege"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Handshakege.tga:28:28",
+    ["pepebongo"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepebongo.tga:28:28",
+    ["pepeplingo"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepeplingo.tga:28:28",
+    ["pepesaxo"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesaxo.tga:28:28",
+    ["pepesingo"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesingo.tga:28:28",
+    ["pepetaco"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetaco.tga:28:28",
+    ["pepetangento"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetangento.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -151,6 +157,12 @@ local aftershockEmotes = {
     ["locksum"] = "locksum",
     ["lootsum"] = "lootsum",
     ["Handshakege"] = "Handshakege",
+    ["pepebongo"] = "pepebongo",
+    ["pepeplingo"] = "pepeplingo",
+    ["pepesaxo"] = "pepesaxo",
+    ["pepesingo"] = "pepesingo",
+    ["pepetaco"] = "pepetaco",
+    ["pepetangento"] = "pepetangento",
 }
 
 local aftershockAnimationMetadata = {
@@ -164,6 +176,12 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catSniffa.tga"] = {["nFrames"] = 59, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1888, ["framerate"] = 10},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catshake.tga"] = {["nFrames"] = 16, ["frameWidth"] = 28, ["frameHeight"] = 28, ["imageWidth"] = 28, ["imageHeight"] = 448, ["framerate"] = 22},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratshake.tga"] = {["nFrames"] = 4, ["frameWidth"] = 87, ["frameHeight"] = 87, ["imageWidth"] = 87, ["imageHeight"] = 348, ["framerate"] = 16},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepebongo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepeplingo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesaxo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetaco.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesingo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetangento.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
 }
 
 -- add animated emote metadata
