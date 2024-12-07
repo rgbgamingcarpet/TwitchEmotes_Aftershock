@@ -81,6 +81,7 @@ local aftershockPack = {
     ["xDx"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xDx.tga:28:28",
     ["ratHand"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratHand.tga:28:28",
     ["birdhaha"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\birdhaha.tga:28:28",
+    ["munkYamero"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\munkYamero.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -167,6 +168,7 @@ local aftershockEmotes = {
     ["xDx"] = "xDx",
     ["ratHand"] = "ratHand",
     ["birdhaha"] = "birdhaha",
+    ["munkYamero"] = "munkYamero",
 }
 
 local aftershockAnimationMetadata = {
