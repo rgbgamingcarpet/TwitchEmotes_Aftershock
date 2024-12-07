@@ -79,6 +79,7 @@ local aftershockPack = {
     ["pepetaco"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetaco.tga:28:28",
     ["pepetangento"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetangento.tga:28:28",
     ["xDx"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xDx.tga:28:28",
+    ["ratHand"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratHand.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -163,6 +164,7 @@ local aftershockEmotes = {
     ["pepetaco"] = "pepetaco",
     ["pepetangento"] = "pepetangento",
     ["xDx"] = "xDx",
+    ["ratHand"] = "ratHand",
 }
 
 local aftershockAnimationMetadata = {
