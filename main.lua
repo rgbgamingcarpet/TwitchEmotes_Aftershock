@@ -82,6 +82,11 @@ local aftershockPack = {
     ["ratHand"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ratHand.tga:28:28",
     ["birdhaha"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\birdhaha.tga:28:28",
     ["munkYamero"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\munkYamero.tga:28:28",
+    ["Crungo"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Crungo.tga:28:28",
+    ["glorp"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\glorp.tga:28:28",
+    ["Jupijej"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga:28:28",
+    ["Slayyy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Slayyy.tga:28:28",
+    [":LMAO:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\LMAO.tga:28:112",
 }
 
 local aftershockEmotes = {
@@ -169,6 +174,11 @@ local aftershockEmotes = {
     ["ratHand"] = "ratHand",
     ["birdhaha"] = "birdhaha",
     ["munkYamero"] = "munkYamero",
+    ["Crungo"] = "Crungo",
+    ["glorp"] = "glorp",
+    ["Jupijej"] = "Jupijej",
+    ["Slayyy"] = "Slayyy",
+    [":LMAO:"] = ":LMAO:",
 }
 
 local aftershockAnimationMetadata = {
@@ -188,6 +198,7 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetaco.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesingo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetangento.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga"] = {["nFrames"] = 16, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 16},
 }
 
 -- add animated emote metadata
