@@ -87,6 +87,7 @@ local aftershockPack = {
     ["Jupijej"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga:28:28",
     ["Slayyy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Slayyy.tga:28:28",
     [":LMAO:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\LMAO.tga:28:112",
+    ["rainbowPls"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rainbowPls.tga:28:28",
 }
 
 local aftershockEmotes = {
@@ -179,6 +180,7 @@ local aftershockEmotes = {
     ["Jupijej"] = "Jupijej",
     ["Slayyy"] = "Slayyy",
     [":LMAO:"] = ":LMAO:",
+    ["rainbowPls"] = "rainbowPls",
 }
 
 local aftershockAnimationMetadata = {
@@ -199,6 +201,7 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepesingo.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\pepetangento.tga"] = {["nFrames"] = 2, ["frameWidth"] = 39, ["frameHeight"] = 39, ["imageWidth"] = 39, ["imageHeight"] = 78, ["framerate"] = 4},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga"] = {["nFrames"] = 16, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 16},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rainbowPls.tga"] = {["nFrames"] = 32, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 16},
 }
 
 -- add animated emote metadata
