@@ -5,3 +5,4 @@
 ##Dependencies: TwitchEmotes
 
 main.lua
+fel-invasion.lua
