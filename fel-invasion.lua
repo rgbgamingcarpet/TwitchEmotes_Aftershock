@@ -92,8 +92,8 @@ local function GetDaysSinceInvasion()
     return days
 end
 
--- calculate chance based on days since invasion, base is 50% and increases by 1% per day
-local felVariantChance = math.min(0.5 + (GetDaysSinceInvasion() * 0.01), 1.0)
+-- calculate chance based on days since invasion, base is 30% and increases by 3% per day
+local felVariantChance = math.min(0.2 + (GetDaysSinceInvasion() * 0.03), 1.0)
 
 -- replace emotes with fel variants in message text
 local function ReplaceEmotesWithFelVariants(msg)
