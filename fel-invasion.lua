@@ -100,21 +100,23 @@ local function ReplaceEmotesWithFelVariants(msg)
     local delimiters = "%s,'<>?-%.!"
     local result = msg
     
-    for word in string.gmatch(msg, "[^" .. delimiters .. "]+") do
-        -- look up if this word is a valid emote
+    local pattern = "%f[%w]([^" .. delimiters .. "]+)%f[^%w]"
+    
+    -- process each word in the message
+    result = result:gsub(pattern, function(word)
+        -- check if this word is a valid emote
         if aftershockEmotes[word] then
             local baseEmote = aftershockEmotes[word]
             -- check if this emote has fel variants
             if felVariants[baseEmote] then
-                -- use chance based on days since invasion
+                -- use chance based on days since invasion for this specific occurrence
                 if math.random() < felVariantChance then
-                    local felVariant = GetRandomFelVariant(baseEmote)
-                    -- replace the word with the fel variant
-                    result = result:gsub(word, felVariant)
+                    return GetRandomFelVariant(baseEmote)
                 end
             end
         end
-    end
+        return word
+    end)
     
     return result
 end
