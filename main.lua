@@ -125,6 +125,10 @@ local aftershockPack = {
     ["scaredsum_fel1"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scaredsum-fel1.tga:28:28",
     ["scaredsum_fel2"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scaredsum-fel2.tga:28:28",
     ["scaredsum_fel3"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scaredsum-fel3.tga:28:28",
+    ["despairsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\despairsum.tga:28:28",
+    ["happysum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\happysum.tga:28:28",
+    [":hypnotoad:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\hypnotoad.tga:28:28",
+    ["minionlol"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\minionlol.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -255,6 +259,10 @@ aftershockEmotes = {
     ["scaredsum_fel1"] = "scaredsum_fel1",
     ["scaredsum_fel2"] = "scaredsum_fel2",
     ["scaredsum_fel3"] = "scaredsum_fel3",
+    ["despairsum"] = "despairsum",
+    ["happysum"] = "happysum",
+    [":hypnotoad:"] = ":hypnotoad:",
+    ["minionlol"] = "minionlol",
 }
 
 local aftershockAnimationMetadata = {
@@ -277,7 +285,9 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga"] = {["nFrames"] = 16, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 16},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rainbowPls.tga"] = {["nFrames"] = 32, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 16},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\PADORUPADORU.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 128, ["framerate"] = 8},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\minionlol.tga"] = {["nFrames"] = 28, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 896, ["framerate"] = 8},
 }
+
 
 -- add animated emote metadata
 for k, v in pairs(aftershockAnimationMetadata) do
