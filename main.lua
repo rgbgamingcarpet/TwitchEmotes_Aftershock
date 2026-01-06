@@ -373,3 +373,47 @@ hooksecurefunc("TwitchEmotesAnimator_UpdateEmoteInFontString", function(fontstri
             end
         end)
 
+-- slash commands
+SLASH_AFTERSHOCKEMOTES1 = '/aftershock'
+-- for now just for fel variant chance
+
+local function displayUsage()
+    -- headers 66ffcb
+    headerColor = "|cFF66ffcb"
+    -- commands c1ffea
+    commandColor = "|cFFc1ffea"
+    -- text 51cca2
+    textColor = "|cFF51cca2"
+
+    print(headerColor .. "Aftershock Emotes Commands:|r")
+    -- fel variant chance
+    print(commandColor .. "/aftershock chance <0.0 - 1.0>" .. textColor .. " - adjusts the chance of your emotes being replaced with fel variants. Current chance is " .. commandColor .. felVariantChance .. textColor .. "|r")
+end
+
+local function commandHandler(msg, editbox)
+    -- parse 1st argument
+    local command, value = msg:match("^(%S*)%s*(.-)$")
+    if command then
+        if command == "chance" then
+            -- parse 2nd argument as chance percentage
+            local chance = tonumber(value)
+            if chance and chance >= 0 and chance <= 1 then
+                felVariantChance = chance
+                print("|cFF66ffcbFel variant chance set to " .. felVariantChance)
+            else
+                displayUsage()
+            end
+        else
+            displayUsage()
+        end
+    else
+        displayUsage()
+    end
+end
+
+SlashCmdList["AFTERSHOCKEMOTES"] = commandHandler;
+
+-- init defaults for saved variables if they don't exist
+if felVariantChance == nil then
+    felVariantChance = 0.3;
+end

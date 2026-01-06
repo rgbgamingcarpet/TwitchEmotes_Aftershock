@@ -80,21 +80,6 @@ local function GetRandomFelVariant(emote)
     return emote
 end
 
-local function GetDaysSinceInvasion()
-    local currentTime = time()
-    local invasionTime = 1745193600  -- Monday, 21 April 2025 00:00:00 GMT
-    
-    local days = 0
-    if currentTime > invasionTime then
-        days = math.floor((currentTime - invasionTime) / 86400)
-    end
-    
-    return days
-end
-
--- calculate chance based on days since invasion, base is 30% and increases by 3% per day
-local felVariantChance = math.min(0.2 + (GetDaysSinceInvasion() * 0.03), 1.0)
-
 -- replace emotes with fel variants in message text
 local function ReplaceEmotesWithFelVariants(msg)
     local delimiters = "%s,'<>?-%.!"
@@ -109,7 +94,7 @@ local function ReplaceEmotesWithFelVariants(msg)
             local baseEmote = aftershockEmotes[word]
             -- check if this emote has fel variants
             if felVariants[baseEmote] then
-                -- use chance based on days since invasion for this specific occurrence
+                -- use chance based on config
                 if math.random() < felVariantChance then
                     return GetRandomFelVariant(baseEmote)
                 end
@@ -122,19 +107,19 @@ local function ReplaceEmotesWithFelVariants(msg)
 end
 
 -- original functions
-local originalSendChatMessage = SendChatMessage
+local originalSendChatMessage = C_ChatInfo.SendChatMessage
 local originalSendMail = SendMail
 local originalBNSendWhisper = BNSendWhisper
 
-function SendChatMessage(msg, ...)
-    if msg ~= nil then
+function C_ChatInfo.SendChatMessage(message, ...)
+    if message ~= nil then
         -- replace emotes with fel variants
-        msg = ReplaceEmotesWithFelVariants(msg)
+        message = ReplaceEmotesWithFelVariants(message)
         
         if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
-            msg = TwitchEmotes_Message_StripEscapes(msg) 
+            message = TwitchEmotes_Message_StripEscapes(message) 
         end
-        originalSendChatMessage(msg, ...)
+        originalSendChatMessage(message, ...)
     end
 end
 
@@ -206,11 +191,6 @@ function Emoticons_OnHyperlinkEnter(frame, link, message, fontstring, ...)
     end
 end
 
--- make sure not hidden by other addon spam
-C_Timer.After(30, function()
-    print("|cFFFF0000The possum invasion is coming...|r")
-end)
-
 local frame = CreateFrame("FRAME")
 frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 frame:SetScript("OnEvent", function(self, event)
@@ -222,4 +202,4 @@ frame:SetScript("OnEvent", function(self, event)
         
         self:UnregisterEvent("PLAYER_ENTERING_WORLD")
     end
-end) 
+end)
