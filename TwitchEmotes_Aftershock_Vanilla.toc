@@ -1,7 +1,7 @@
 ## Interface: 11508
 ## Title: |TInterface\Addons\TwitchEmotes_Aftershock\emotes\happybara:0|tAftershock Emotes|TInterface\Addons\TwitchEmotes_Aftershock\emotes\smirkbara:0|t
 ## Author: RGB
-## Version: 1.0.12
+## Version: 1.0.13
 ## Dependencies: TwitchEmotes
 ## SavedVariables: felVariantChance
 
