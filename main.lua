@@ -129,6 +129,17 @@ local aftershockPack = {
     ["happysum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\happysum.tga:28:28",
     [":hypnotoad:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\hypnotoad.tga:28:28",
     ["minionlol"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\minionlol.tga:28:28",
+    ["tacticalmunk"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\tacticalmunk.tga:28:28",
+    ["chadsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\chadsum.tga:28:28",
+    ["chadsumbulkedup"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\chadsumbulkedup.tga:28:28",
+    ["barabeer"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\barabeer.tga:28:28",
+    ["flyingrat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\flyingrat.tga:28:28",
+    ["barabad"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\barabad.tga:28:28",
+    ["stopBeingFrench"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\stopBeingFrench.tga:28:28",
+    ["oldbara"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\oldbara.tga:28:28",
+    ["capygangster"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\capygangster.tga:28:28",
+    ["possumgangster"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\possumgangster.tga:28:28",
+    ["sadsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\sadsum.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -263,6 +274,17 @@ aftershockEmotes = {
     ["happysum"] = "happysum",
     [":hypnotoad:"] = ":hypnotoad:",
     ["minionlol"] = "minionlol",
+    ["tacticalmunk"] = "tacticalmunk",
+    ["chadsum"] = "chadsum",
+    ["chadsumbulkedup"] = "chadsumbulkedup",
+    ["barabeer"] = "barabeer",
+    ["flyingrat"] = "flyingrat",
+    ["barabad"] = "barabad",
+    ["stopBeingFrench"] = "stopBeingFrench",
+    ["oldbara"] = "oldbara",
+    ["capygangster"] = "capygangster",
+    ["possumgangster"] = "possumgangster",
+    ["sadsum"] = "sadsum",
 }
 
 local aftershockAnimationMetadata = {
