@@ -1,0 +1,10 @@
+## Interface: 20505
+## X-Min-Interface: 20504
+## Title: |TInterface\Addons\TwitchEmotes_Aftershock\emotes\happybara:0|tAftershock Emotes|TInterface\Addons\TwitchEmotes_Aftershock\emotes\smirkbara:0|t
+## Author: RGB
+## Version: 1.0.13
+## Dependencies: TwitchEmotes
+## SavedVariables: felVariantChance
+
+main.lua
+fel-invasion.lua
