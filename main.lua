@@ -140,6 +140,11 @@ local aftershockPack = {
     ["capygangster"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\capygangster.tga:28:28",
     ["possumgangster"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\possumgangster.tga:28:28",
     ["sadsum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\sadsum.tga:28:28",
+    [":lick:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\lick.tga:28:28",
+    ["noucheer"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\noucheer.tga:28:28",
+    ["monkeyfap"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyfap.tga:28:28",
+    ["woahcat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\woahcat.tga:28:28",
+    ["mccat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mccat.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -285,6 +290,11 @@ aftershockEmotes = {
     ["capygangster"] = "capygangster",
     ["possumgangster"] = "possumgangster",
     ["sadsum"] = "sadsum",
+    [":lick:"] = ":lick:",
+    ["noucheer"] = "noucheer",
+    ["monkeyfap"] = "monkeyfap",
+    ["woahcat"] = "woahcat",
+    ["mccat"] = "mccat",
 }
 
 local aftershockAnimationMetadata = {
@@ -307,7 +317,9 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Jupijej.tga"] = {["nFrames"] = 16, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 16},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rainbowPls.tga"] = {["nFrames"] = 32, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 16},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\PADORUPADORU.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 128, ["framerate"] = 8},
-    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\minionlol.tga"] = {["nFrames"] = 28, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 896, ["framerate"] = 8},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\lick.tga"] = {["nFrames"] = 63, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2016, ["framerate"] = 14},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\noucheer.tga"] = {["nFrames"] = 7, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 224, ["framerate"] = 21},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyfap.tga"] = {["nFrames"] = 5, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 160, ["framerate"] = 21},
 }
 
 
