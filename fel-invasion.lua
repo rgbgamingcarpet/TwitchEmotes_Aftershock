@@ -106,44 +106,67 @@ local function ReplaceEmotesWithFelVariants(msg)
     return result
 end
 
--- original functions
-local originalSendChatMessage = C_ChatInfo.SendChatMessage
-local originalSendMail = SendMail
-local originalBNSendWhisper = BNSendWhisper
+-- yoinked from TwitchEmotes
+local isMidnight = (select(4, GetBuildInfo()) >= 120000)
+local InChatMessagingLockdown = (C_ChatInfo and C_ChatInfo.InChatMessagingLockdown) or function() return false end
+local issecretvalue = issecretvalue or function() return false end
 
-function C_ChatInfo.SendChatMessage(message, ...)
-    if message ~= nil then
-        -- replace emotes with fel variants
-        message = ReplaceEmotesWithFelVariants(message)
-        
-        if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
-            message = TwitchEmotes_Message_StripEscapes(message) 
+-- funky stuff for midnight addon changes
+if isMidnight then
+    -- C_ChatInfo.SendChatMessage protected during combat and cannot be wrapped
+    local felOwner = {}
+    EventRegistry:RegisterCallback(
+        "ChatFrame.OnEditBoxPreSendText",
+        function(self, editBox)
+            if InChatMessagingLockdown() then return end
+            local msg = editBox:GetText()
+            if not msg or issecretvalue(msg) or msg:match("^%s*$") then return end
+
+            local newMsg = ReplaceEmotesWithFelVariants(msg)
+            if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
+                newMsg = TwitchEmotes_Message_StripEscapes(newMsg)
+            end
+            if newMsg ~= msg then
+                editBox:SetText(newMsg)
+            end
+        end,
+        felOwner
+    )
+else
+    -- non-retail: wrap C_ChatInfo.SendChatMessage directly
+    local originalSendChatMessage = C_ChatInfo.SendChatMessage
+    function C_ChatInfo.SendChatMessage(message, ...)
+        if message ~= nil then
+            message = ReplaceEmotesWithFelVariants(message)
+            if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
+                message = TwitchEmotes_Message_StripEscapes(message)
+            end
+            originalSendChatMessage(message, ...)
         end
-        originalSendChatMessage(message, ...)
     end
 end
 
+local originalSendMail = SendMail
 function SendMail(recipient, subject, msg, ...)
     if msg ~= nil then
-        -- replace emotes with fel variants
         msg = ReplaceEmotesWithFelVariants(msg)
-        
         if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
-            msg = TwitchEmotes_Message_StripEscapes(msg) 
+            msg = TwitchEmotes_Message_StripEscapes(msg)
         end
         originalSendMail(recipient, subject, msg, ...)
     end
 end
 
-function BNSendWhisper(id, msg, ...)
-    if msg ~= nil then
-        -- replace emotes with fel variants
-        msg = ReplaceEmotesWithFelVariants(msg)
-
-        if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
-            msg = TwitchEmotes_Message_StripEscapes(msg) 
+if BNSendWhisper then
+    local originalBNSendWhisper = BNSendWhisper
+    function BNSendWhisper(id, msg, ...)
+        if msg ~= nil then
+            msg = ReplaceEmotesWithFelVariants(msg)
+            if Emoticons_Settings["ENABLE_CLICKABLEEMOTES"] then
+                msg = TwitchEmotes_Message_StripEscapes(msg)
+            end
+            originalBNSendWhisper(id, msg, ...)
         end
-        originalBNSendWhisper(id, msg, ...)
     end
 end
 

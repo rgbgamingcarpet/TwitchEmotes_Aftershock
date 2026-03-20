@@ -379,6 +379,7 @@ end
 -- TwitchEmotesAnimator.lua
 hooksecurefunc("TwitchEmotesAnimator_UpdateEmoteInFontString", function(fontstring, widthOverride, heightOverride)
     local txt = fontstring:GetText();
+    if issecretvalue and issecretvalue(txt) == true then return end -- Midnight: fontstring is protected during combat
     if (txt ~= nil) then
         for emoteTextureString in txt:gmatch("(|TInterface\\AddOns\\TwitchEmotes_Aftershock\\emotes.-|t)") do
             local imagepath = emoteTextureString:match("|T(Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes.-.tga).-|t")
