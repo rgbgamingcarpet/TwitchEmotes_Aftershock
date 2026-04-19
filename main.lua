@@ -145,6 +145,8 @@ local aftershockPack = {
     ["monkeyfap"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyfap.tga:28:28",
     ["woahcat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\woahcat.tga:28:28",
     ["mccat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mccat.tga:28:28",
+    ["CrungoSmile"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\CrungoSmile.tga:28:28",
+    ["xgg"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xgg.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -295,6 +297,8 @@ aftershockEmotes = {
     ["monkeyfap"] = "monkeyfap",
     ["woahcat"] = "woahcat",
     ["mccat"] = "mccat",
+    ["CrungoSmile"] = "CrungoSmile",
+    ["xgg"] = "xgg",
 }
 
 local aftershockAnimationMetadata = {
