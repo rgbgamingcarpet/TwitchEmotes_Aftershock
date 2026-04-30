@@ -147,6 +147,9 @@ local aftershockPack = {
     ["mccat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mccat.tga:28:28",
     ["CrungoSmile"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\CrungoSmile.tga:28:28",
     ["xgg"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xgg.tga:28:28",
+    ["yes_monty_mole"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\yes_monty_mole.tga:28:28",
+    ["bedgehog"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\bedgehog.tga:28:28",
+    ["MONKA"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\MONKA.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -299,6 +302,9 @@ aftershockEmotes = {
     ["mccat"] = "mccat",
     ["CrungoSmile"] = "CrungoSmile",
     ["xgg"] = "xgg",
+    ["yes_monty_mole"] = "yes_monty_mole",
+    ["bedgehog"] = "bedgehog",
+    ["MONKA"] = "MONKA",
 }
 
 local aftershockAnimationMetadata = {
@@ -324,6 +330,7 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\lick.tga"] = {["nFrames"] = 63, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2016, ["framerate"] = 14},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\noucheer.tga"] = {["nFrames"] = 7, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 224, ["framerate"] = 21},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\monkeyfap.tga"] = {["nFrames"] = 5, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 160, ["framerate"] = 21},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\yes_monty_mole.tga"] = {["nFrames"] = 20, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 640, ["framerate"] = 20},
 }
 
 
