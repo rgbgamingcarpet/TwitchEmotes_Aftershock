@@ -152,6 +152,7 @@ local aftershockPack = {
     ["MONKA"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\MONKA.tga:28:28",
     ["blelelele"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\blelelele.tga:28:28",
     ["roombacat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\roombacat.tga:28:28",
+    ["shysum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\shysum.tga:28:28",
     ["ALERT"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ALERT.tga:28:28",
     [":aga:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\aga.tga:28:28",
     [":waga:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\waga.tga:28:28",
