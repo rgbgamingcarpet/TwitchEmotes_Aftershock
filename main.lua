@@ -152,7 +152,13 @@ local aftershockPack = {
     ["MONKA"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\MONKA.tga:28:28",
     ["blelelele"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\blelelele.tga:28:28",
     ["roombacat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\roombacat.tga:28:28",
-    ["shysum"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\shysum.tga:28:28",
+    ["ALERT"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ALERT.tga:28:28",
+    [":aga:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\aga.tga:28:28",
+    [":waga:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\waga.tga:28:28",
+    ["smugcat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\smugcat.tga:28:28",
+    ["xdd666"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\xdd666.tga:28:28",
+    ["peepoGamba"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\peepoGamba.tga:28:28",
+    ["typy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\typy.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -311,6 +317,13 @@ aftershockEmotes = {
     ["blelelele"] = "blelelele",
     ["roombacat"] = "roombacat",
     ["shysum"] = "shysum",
+    ["ALERT"] = "ALERT",
+    [":aga:"] = ":aga:",
+    [":waga:"] = ":waga:",
+    ["smugcat"] = "smugcat",
+    ["xdd666"] = "xdd666",
+    ["peepoGamba"] = "peepoGamba",
+    ["typy"] = "typy",
 }
 
 local aftershockAnimationMetadata = {
@@ -339,6 +352,10 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\yes_monty_mole.tga"] = {["nFrames"] = 20, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 640, ["framerate"] = 20},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\blelelele.tga"] = {["nFrames"] = 7, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 224, ["framerate"] = 7},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\roombacat.tga"] = {["nFrames"] = 10, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 320, ["framerate"] = 33},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\waga.tga"] = {["nFrames"] = 14, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 448, ["framerate"] = 20},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\typy.tga"] = {["nFrames"] = 60, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1920, ["framerate"] = 23},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\peepoGamba.tga"] = {["nFrames"] = 30, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 960, ["framerate"] = 33},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ALERT.tga"] = {["nFrames"] = 75, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2400, ["framerate"] = 30},
 }
 
 
