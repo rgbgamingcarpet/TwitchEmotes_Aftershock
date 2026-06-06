@@ -59,7 +59,7 @@ local aftershockPack = {
     ["catNOO"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catNOO.tga:28:28",
     ["catsmile"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\catsmile.tga:28:28",
     ["clowncat"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\clowncat.tga:28:28",
-    ["Dentge"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Dentge.tga:28:28",
+    ["Dentge"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Dentge.tga:28:42",
     ["munkJail"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\munkJail.tga:28:28",
     ["munkNOO"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\munkNOO.tga:28:28",
     ["munkRude"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\munkRude.tga:28:28",
@@ -162,6 +162,7 @@ local aftershockPack = {
     ["typy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\typy.tga:28:28",
     [":AAA:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AAA.tga:28:28",
     ["scawy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scawy.tga:28:28",
+    ["Dentgemark"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Dentgemark.tga:28:42",
 }
 
 aftershockEmotes = {
@@ -329,6 +330,7 @@ aftershockEmotes = {
     ["typy"] = "typy",
     [":AAA:"] = ":AAA:",
     ["scawy"] = "scawy",
+    ["Dentgemark"] = "Dentgemark",
 }
 
 local aftershockAnimationMetadata = {
