@@ -163,6 +163,7 @@ local aftershockPack = {
     [":AAA:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AAA.tga:28:28",
     ["scawy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scawy.tga:28:28",
     ["Dentgemark"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Dentgemark.tga:28:42",
+    ["rayshower"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rayshower.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -331,6 +332,7 @@ aftershockEmotes = {
     [":AAA:"] = ":AAA:",
     ["scawy"] = "scawy",
     ["Dentgemark"] = "Dentgemark",
+    ["rayshower"] = "rayshower",
 }
 
 local aftershockAnimationMetadata = {
@@ -365,6 +367,7 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\ALERT.tga"] = {["nFrames"] = 75, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2400, ["framerate"] = 30},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AAA.tga"] = {["nFrames"] = 7, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 224, ["framerate"] = 30},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scawy.tga"] = {["nFrames"] = 77, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2464, ["framerate"] = 32},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rayshower.tga"] = {["nFrames"] = 50, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1600, ["framerate"] = 30},
 }
 
 
