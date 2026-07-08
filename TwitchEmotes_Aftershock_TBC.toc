@@ -1,8 +1,8 @@
-## Interface: 20505
-## X-Min-Interface: 20504
+## Interface: 20505, 20506
+## X-Min-Interface: 20505
 ## Title: |TInterface\Addons\TwitchEmotes_Aftershock\emotes\happybara:0|tAftershock Emotes|TInterface\Addons\TwitchEmotes_Aftershock\emotes\smirkbara:0|t
 ## Author: RGB
-## Version: 1.0.20
+## Version: 1.0.21
 ## Dependencies: TwitchEmotes
 ## SavedVariables: felVariantChance
 
