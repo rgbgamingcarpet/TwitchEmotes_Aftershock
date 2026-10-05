@@ -164,6 +164,10 @@ local aftershockPack = {
     ["scawy"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scawy.tga:28:28",
     ["Dentgemark"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\Dentgemark.tga:28:42",
     ["rayshower"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rayshower.tga:28:28",
+    ["mhm"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mhm.tga:28:28",
+    [":awww:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\awww.tga:28:28",
+    ["AREYOUAFISH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AREYOUAFISH.tga:28:28",
+    ["BRUH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\BRUH.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -333,6 +337,10 @@ aftershockEmotes = {
     ["scawy"] = "scawy",
     ["Dentgemark"] = "Dentgemark",
     ["rayshower"] = "rayshower",
+    ["mhm"] = "mhm",
+    [":awww:"] = ":awww:",
+    ["AREYOUAFISH"] = "AREYOUAFISH",
+    ["BRUH"] = "BRUH",
 }
 
 local aftershockAnimationMetadata = {
@@ -368,6 +376,9 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AAA.tga"] = {["nFrames"] = 7, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 224, ["framerate"] = 30},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\scawy.tga"] = {["nFrames"] = 77, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2464, ["framerate"] = 32},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rayshower.tga"] = {["nFrames"] = 50, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1600, ["framerate"] = 30},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mhm.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 5},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\awww.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 33},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AREYOUAFISH.tga"] = {["nFrames"] = 29, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 928, ["framerate"] = 10},
 }
 
 
