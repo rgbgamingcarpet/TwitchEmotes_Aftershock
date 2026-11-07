@@ -108,6 +108,8 @@ end
 
 -- yoinked from TwitchEmotes
 local isMidnight = (select(4, GetBuildInfo()) >= 120000)
+    or (C_ChatInfo and C_ChatInfo.InChatMessagingLockdown ~= nil)
+    or (issecretvalue ~= nil)
 local InChatMessagingLockdown = (C_ChatInfo and C_ChatInfo.InChatMessagingLockdown) or function() return false end
 local issecretvalue = issecretvalue or function() return false end
 
@@ -157,7 +159,7 @@ function SendMail(recipient, subject, msg, ...)
     end
 end
 
-if BNSendWhisper then
+if BNSendWhisper and not isMidnight then
     local originalBNSendWhisper = BNSendWhisper
     function BNSendWhisper(id, msg, ...)
         if msg ~= nil then
