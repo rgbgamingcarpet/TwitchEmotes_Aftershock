@@ -171,6 +171,8 @@ local aftershockPack = {
     ["PogFish"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\PogFish.tga:28:28",
     ["TheVoices"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\TheVoices.tga:28:28",
     ["rgbNOOO"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbNOOO.tga:28:28",
+    ["peepoBaton"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\peepoBaton.tga:28:28",
+    [":damn:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\damn.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -347,6 +349,8 @@ aftershockEmotes = {
     ["PogFish"] = "PogFish",
     ["TheVoices"] = "TheVoices",
     ["rgbNOOO"] = "rgbNOOO",
+    ["peepoBaton"] = "peepoBaton",
+    [":damn:"] = ":damn:",
 }
 
 local aftershockAnimationMetadata = {
