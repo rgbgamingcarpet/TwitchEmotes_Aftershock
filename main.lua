@@ -168,6 +168,11 @@ local aftershockPack = {
     [":awww:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\awww.tga:28:28",
     ["AREYOUAFISH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AREYOUAFISH.tga:28:28",
     ["BRUH"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\BRUH.tga:28:28",
+    ["PogFish"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\PogFish.tga:28:28",
+    ["TheVoices"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\TheVoices.tga:28:28",
+    ["rgbNOOO"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\rgbNOOO.tga:28:28",
+    ["peepoBaton"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\peepoBaton.tga:28:28",
+    [":damn:"] = "Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\damn.tga:28:28",
 }
 
 aftershockEmotes = {
@@ -341,6 +346,11 @@ aftershockEmotes = {
     [":awww:"] = ":awww:",
     ["AREYOUAFISH"] = "AREYOUAFISH",
     ["BRUH"] = "BRUH",
+    ["PogFish"] = "PogFish",
+    ["TheVoices"] = "TheVoices",
+    ["rgbNOOO"] = "rgbNOOO",
+    ["peepoBaton"] = "peepoBaton",
+    [":damn:"] = ":damn:",
 }
 
 local aftershockAnimationMetadata = {
@@ -379,6 +389,8 @@ local aftershockAnimationMetadata = {
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\mhm.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 5},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\awww.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 288, ["framerate"] = 33},
     ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\AREYOUAFISH.tga"] = {["nFrames"] = 29, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 928, ["framerate"] = 10},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\PogFish.tga"] = {["nFrames"] = 21, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 672, ["framerate"] = 20},
+    ["Interface\\AddOns\\TwitchEmotes_Aftershock\\emotes\\TheVoices.tga"] = {["nFrames"] = 101, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 3232, ["framerate"] = 17},
 }
 
 
